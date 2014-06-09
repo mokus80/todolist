@@ -16,7 +16,7 @@ object Task {
   }
 }
 
-	import play.api.db
+	import play.api.db._
 	import play.api.Play.current
 
 	def all(): List[Task] = DB.withConnection { implicit c =>
